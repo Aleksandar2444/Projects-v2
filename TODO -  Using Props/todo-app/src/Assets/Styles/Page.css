@@ -1,0 +1,37 @@
+.page {
+  padding: 30px;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: orangered;
+}
+
+.page div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page div:nth-child(3) input {
+  line-height: 30px;
+}
+
+.page__heading {
+  text-align: center;
+}
+
+.page__heading h2 {
+  margin: 0;
+  font-size: 35px;
+  padding-top: 20px;
+  font-weight: 400;
+  color: orangered;
+}
+
+.page__heading p {
+  font-size: 18px;
+  font-weight: 400;
+}
